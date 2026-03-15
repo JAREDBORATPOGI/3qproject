@@ -1,0 +1,35 @@
+/* CSS properties */
+body {
+    background-image: url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box {
+    background-color: rgba(30, 30, 30, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.fare-display-box {
+    background-color: #0d253f;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid #5bc0de;
+}
+
+
+.container {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
